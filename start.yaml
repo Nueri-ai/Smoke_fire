@@ -1,0 +1,15 @@
+# fire_smoke_all.yaml  (example)
+path: /Users/nurpe/Downloads/smoke_fire         # root of images/ and labels/
+train: images/train
+val:   images/val
+
+names:
+  0: motorcycle
+  1: bicycle
+  2: wheelchair
+  3: smoke        # <-- the ones you really want
+  4: fire
+  5: scooter
+  6: person
+
+
